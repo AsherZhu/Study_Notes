@@ -1,6 +1,4 @@
 # Summary
 
 * [Introduction](README.md)
-* [闈㈠悜瀵硅薄鐨勬剰涔塢(chapter1.md)
-
-http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=369
+* [面向对象](chapter1.md)
