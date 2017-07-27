@@ -99,6 +99,9 @@ Statement PreparedStatement区别：
       * 是封装在Connection连接对象中的
       * 事务的提交和回滚由jdk监管，调用方法执行提交或者是回滚
       * 如果sql语句有错，直接在程序中回滚，不会对数据库造成任何影响
+      * 自动提交setAutoCommit(true)
+      * 手动提交setAutoCommit(false)
+      如果想手动监管事务，setAutoCommit要写在
       
 不要对查询操作创建事务
 
