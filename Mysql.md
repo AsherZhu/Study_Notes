@@ -107,7 +107,7 @@ Statement PreparedStatement区别：
 
 ---
 
-### 存储过程
+### 存储过程 `Stored Procedure`
 一个方法（数据库），提供一个名称给程序调用<br>
 可以一次执行多条带逻辑判断的sql语句
 
@@ -126,7 +126,10 @@ Statement PreparedStatement区别：
 4. java调用mysql的存储过程需要加`{}`
 5. 如果存储过程没有参数可以省略 `()`
 
-程序包
+#### 带参数的存储过程
+
+
+程序包 
 
 内存有两种结构
 1. 堆 `值` `常量`
